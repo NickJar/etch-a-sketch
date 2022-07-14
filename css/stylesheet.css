@@ -1,11 +1,12 @@
 .board {
-    height: 550px;
-    width: 550px;
+    height: 35em;
+    width: 35em;
     display: grid;
     border: 5px solid black;
     border-radius: 5px;
   
 }
+
 .flex-container
 {
     display: flex;

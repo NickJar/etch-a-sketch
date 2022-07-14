@@ -11,6 +11,7 @@ function populateBoard(size){
     for(let i = 0; i < amount; i++){
         let square = document.createElement('div');
         square.addEventListener('mouseover', colorSquare);
+        square.addEventListener('touchstart', colorSquare);
         square.style.backgroundColor = 'tan';
         board.insertAdjacentElement("beforeend", square);
     }

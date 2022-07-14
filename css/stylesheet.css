@@ -1,6 +1,7 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 415px) {
 .board{
     width: 23em;
+    height: 23em;
 }
 .buttons{
     display: flex;
@@ -10,11 +11,15 @@
 
 
 }
-@media only screen and (min-width: 768px) {
-   .board{ width: 35em;}
+@media only screen and (min-width: 415px) {
+   .board{
+     width: 35em;
+     height: 35em;
+
+}
 }
 .board {
-    height: 35em;
+   
     
     display: grid;
     border: 5px solid black;
